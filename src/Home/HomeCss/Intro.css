@@ -1,0 +1,154 @@
+.intro {
+    background-color: var(--background-1);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+
+.introduction h1 {
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: var(--primary);
+    text-shadow:
+        1px 0px 1px #ccc,
+        0px 1px 1px #eee,
+        2px 1px 1px #ccc,
+        1px 2px 1px #eee,
+        3px 2px 1px #ccc,
+        2px 3px 1px #eee,
+        4px 3px 1px #ccc,
+        3px 4px 1px #eee,
+        5px 4px 1px #ccc,
+        4px 5px 1px #eee,
+        6px 5px 1px #ccc,
+        5px 6px 1px #eee,
+        7px 6px 1px #ccc;
+    animation: shadowAnimation 2s infinite alternate;
+}
+
+@keyframes shadowAnimation {
+    0% {
+        text-shadow:
+            1px 0px 1px #ccc,
+            0px 1px 1px #eee,
+            2px 1px 1px #ccc,
+            1px 2px 1px #eee,
+            3px 2px 1px #ccc,
+            2px 3px 1px #eee,
+            4px 3px 1px #ccc,
+            3px 4px 1px #eee,
+            5px 4px 1px #ccc,
+            4px 5px 1px #eee,
+            6px 5px 1px #ccc,
+            5px 6px 1px #eee,
+            7px 6px 1px #ccc;
+    }
+
+    100% {
+        text-shadow:
+            3px 0px 5px #ccc,
+            0px 3px 5px #eee,
+            5px 3px 5px #ccc,
+            3px 6px 5px #eee,
+            7px 6px 5px #ccc,
+            6px 7px 5px #eee,
+            8px 7px 5px #ccc,
+            7px 8px 5px #eee,
+            10px 8px 5px #ccc,
+            9px 9px 5px #eee,
+            12px 9px 5px #ccc,
+            11px 12px 5px #eee,
+            14px 12px 5px #ccc;
+    }
+}
+
+.introduction p {
+    font-size: var(--normal-font-size);
+    color: var(--text);
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.introduction span {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: var(--small-font-size);
+    color: var(--secondary);
+    font-style: italic;
+}
+
+.intro button {
+    margin-top: 3rem;
+    background-color: var(--primary);
+    color: var(--pure-white);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--animate);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro button:hover {
+    background-color: var(--primary-hover);
+    box-shadow: none;
+    transform: translateY(-1px);
+}
+
+.intro i {
+    cursor: pointer;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: #C9B6E4;
+    animation: bounce 2s infinite;
+}
+
+.intro i:hover {
+    color: var(--primary);
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+
+    }
+
+    50% {
+        transform: translateX(-50%) translateY(5px);
+        color: var(--primary);
+    }
+}
+
+
+/*--------------- responsive ----------- */
+
+@media screen and (max-width:380px) {
+    .intro {
+        height: 100dvh;
+    }
+
+    .introduction {
+        padding: 2rem;
+    }
+
+    .introduction h1 {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+
+    }
+
+}

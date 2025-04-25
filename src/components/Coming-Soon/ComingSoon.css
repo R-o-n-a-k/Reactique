@@ -1,0 +1,93 @@
+.comingSoon {
+    height: 100vh;
+    background: linear-gradient(135deg, #9B5DE5, #F3EDFB);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--background-1);
+    position: relative;
+
+}
+
+.coming-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.coming-desc {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: var(--background-2);
+}
+
+.website-link {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 600;
+    margin-left: 0.3rem;
+    transition: color 0.3s ease;
+}
+
+.website-link:hover {
+    color: var(--primary-hover);
+}
+
+.home-btn {
+    background-color: var(--primary);
+    color: var(--pure-white);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--animate);
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.home-btn:hover {
+    background-color: var(--primary-hover);
+    box-shadow: none;
+    transform: translateY(-1px);
+}
+
+/* -------------------Responsive----------------------- */
+
+@media screen and (max-width:380px) {
+    .comingSoon {
+        height: 100dvh;
+        padding: 2rem;
+    }
+
+    .coming-title {
+        font-size: 2.5rem;
+    }
+
+    .coming-desc {
+        font-size: var(--small-font-size);
+    }
+
+    .home-btn {
+        padding: .8rem 1rem;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+
+    .coming-title {
+        font-size: 2rem;
+    }
+
+    .coming-desc {
+        font-size: var(--smaller-font-size);
+    }
+
+}

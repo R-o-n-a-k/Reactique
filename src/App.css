@@ -1,0 +1,125 @@
+/* ---------------------------------- Google Font ---------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ------------------------------ Variables CSS ----------------------------- */
+:root {
+  /* ---------------------------------- color --------------------------------- */
+  --pure-white: #ffffff;
+  --pure-black: #000000;
+  --white-color-1: #fafafa;
+  --white-color-2: #F5F8FA;
+
+  /* -------------------text color------------------- */
+  --text: #313131;
+  --sub-text: #A0A0A0;
+  /* --sub-text: #616161; */
+  --border-color: #E0E0E0;
+
+
+  --background-1: #F8F8F8;
+  --background-2: #F3EDFB;
+  --primary: #9B5DE5;
+  --secondary: #B0B3B8;
+  --tertiary: #FFA69E;
+
+  /* -------------------hover color-------------------  */
+  --primary-hover: #884DDB;
+  --secondary-hover: #9A9DA1;
+
+  /* -------------------other color------------------- */
+  --success: #32e875;
+  --success-dark: forestgreen;
+  --error: #FF4F64;
+  --error-dark: crimson;
+  /* -------------------shadows------------------- */
+  --box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  --box-shadow-1: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --box-shadow-2: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  --box-shadow-3: 0 5px 15px rgba(0, 0, 0, 0.35);
+  --animate: all .2s ease-in-out;
+  --nav-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+  /* ---------------------------------- Fonts --------------------------------- */
+  --body-font: "Poppins",
+    sans-serif;
+
+  /* ---------------------------------- Font size ----------------------------- */
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.635rem;
+}
+
+/* ---------------------------------- Base ---------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+}
+
+body {
+  background-color: var(--background-1);
+  color: var(--text);
+}
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* ------------------------------- Hidding H1& H2 tags ------------------------------- */
+
+.container {
+  max-width: 85%;
+  padding: 0.5rem 2rem;
+}
+
+
+/* ------------------------------- Scroll Bar ------------------------------- */
+
+::-webkit-scrollbar {
+  width: .5rem;
+  background-color: transparent;
+  border-radius: .3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: .3rem;
+}
+
+/* ------------------------------- BREAKPOINTS ------------------------------ */
+@media screen and (max-width:992px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:576px) {}
+
+@media screen and (max-width:380px) {}
+
+@media screen and (max-width:350px) {}
