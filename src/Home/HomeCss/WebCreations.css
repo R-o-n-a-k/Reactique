@@ -61,10 +61,11 @@
 }
 
 .project {
-    background-color: var(--background-2);
+    background-color: var(--background-1);
     border-radius: 1rem;
     width: 20rem;
     height: 20rem;
+    border: .5px solid var(--background-2);
     box-shadow: var(--box-shadow-2);
     overflow: hidden;
     display: flex;
@@ -89,7 +90,7 @@
     position: absolute;
     transform: translateY(85%);
     transition: transform 0.4s ease-in-out;
-    background-color: rgba(248, 248, 248, 0.85);
+    background-color: rgba(243, 237, 251, 0.9);
 }
 
 .project:hover .project-content {
