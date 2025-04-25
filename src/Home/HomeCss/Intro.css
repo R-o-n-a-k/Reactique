@@ -1,6 +1,6 @@
 .intro {
     background-color: var(--background-1);
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,10 +137,6 @@
 /*--------------- responsive ----------- */
 
 @media screen and (max-width:380px) {
-    .intro {
-        height: 100dvh;
-    }
-
     .introduction {
         padding: 2rem;
     }
