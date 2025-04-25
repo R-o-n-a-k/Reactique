@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Loader from "../components/Loader/Loader";
 
 const Home = lazy(() => import("../Home/Home"));
-const Calculator = lazy(() => import("../projects/Calculator/Calculator"));
+const Calculator = lazy(() => import("../projects/calculator/Calculator"));
 const ToDo = lazy(() => import("../projects/to-do/ToDo"));
 const ContactForm = lazy(() => import("../projects/contact-form/ContactForm"));
 const NotFound = lazy(() => import("../components/Not-found/NotFound"));
