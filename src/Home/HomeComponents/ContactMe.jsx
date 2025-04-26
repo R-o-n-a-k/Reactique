@@ -9,16 +9,22 @@ const ContactMe = () => {
   return (
     <>
       <div className="contact-me">
-        <div className="contact-me-heading">
-          <h2>Get in Touch</h2>
+        <div className="contact-me-heading" data-aos="fade-up">
+          <h2 data-aos-offset="10">Get in Touch</h2>
         </div>
         <div className="contact-me-content">
-          <p>If you have any other exciting projects & want to collaborate.</p>
+          <p data-aos="zoom-in">
+            If you have any other exciting projects & want to collaborate.
+          </p>
           <Link to="/contact-form">
-            <button>Contact Me</button>
+            <button data-aos="zoom-out">Contact Me</button>
           </Link>
         </div>
-        <div className="contact-me-socials">
+        <div
+          className="contact-me-socials"
+          data-aos="fade-up"
+          data-aos-offset="1"
+        >
           {socialIcons.map((icon) => (
             <a
               className="social-media-icon"
