@@ -33,11 +33,11 @@ const WebCreations = () => {
   return (
     <>
       <div className="web-creations" id="web-creations">
-        <div className="web-creations-heading">
+        <div className="web-creations-heading" data-aos="fade-up">
           <h2>Web Creations</h2>
         </div>
         {/* tab buttons */}
-        <div className="web-creations-tabs">
+        <div className="web-creations-tabs" data-aos="fade-up">
           {creationsTab.map((tab) => (
             <button
               className={`${
@@ -54,8 +54,8 @@ const WebCreations = () => {
         <div className="web-creations-projects">
           {/* displaying initially only 3 data when show is false */}
           {(show ? data : data.slice(0, 3)).map((item) => (
-            <div className="project" key={item.id}>
-              <img src={item.demo} alt="" />
+            <div className="project" key={item.id} data-aos="fade-up">
+              <img src={item.demo} alt={item.name} loading="lazy" />
               <div className="project-content">
                 <h4>{item.name}</h4>
                 <p>{item.description}</p>
@@ -70,7 +70,11 @@ const WebCreations = () => {
 
         {data.length > 3 && (
           <div className="web-creations-show">
-            <button onClick={() => setShow((prev) => !prev)}>
+            <button
+              data-aos="fade-up"
+              data-aos-offset="10"
+              onClick={() => setShow((prev) => !prev)}
+            >
               {show ? "Show Less" : "Show All"}
             </button>
           </div>
