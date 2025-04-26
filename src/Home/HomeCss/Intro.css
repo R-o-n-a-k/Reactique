@@ -136,7 +136,7 @@
 
 /*--------------- responsive ----------- */
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:395px) {
     .introduction {
         padding: 2rem;
     }
@@ -150,6 +150,33 @@
     .introduction p,
     .introduction span {
         letter-spacing: 0px;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+
+    .introduction h1 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        letter-spacing: 0px;
+    }
+
+    .introduction p,
+    .introduction span {
+        letter-spacing: 0px;
+    }
+
+    .introduction p {
+        font-size: var(--small-font-size);
+    }
+
+    .introduction span {
+        font-size: var(--smaller-font-size);
+    }
+
+    .intro button {
+        margin-top: 1rem;
     }
 
 }

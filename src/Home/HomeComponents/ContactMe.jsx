@@ -10,7 +10,7 @@ const ContactMe = () => {
     <>
       <div className="contact-me">
         <div className="contact-me-heading" data-aos="fade-up">
-          <h2 data-aos-offset="10">Get in Touch</h2>
+          <h2>Get in Touch</h2>
         </div>
         <div className="contact-me-content">
           <p data-aos="zoom-in">
