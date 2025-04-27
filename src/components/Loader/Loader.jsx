@@ -4,9 +4,9 @@ function Loader() {
   return (
     <>
       <div className="loader-container">
-        <div class="loader">
-          <div class="loader-outter"></div>
-          <div class="loader-inner"></div>
+        <div className="loader">
+          <div className="loader-outter"></div>
+          <div className="loader-inner"></div>
         </div>
       </div>
     </>
