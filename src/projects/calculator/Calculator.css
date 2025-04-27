@@ -1,4 +1,111 @@
+.calculator-project {
+    background-color: gainsboro;
+    padding: 2rem;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-project h2 {
+    color: var(--text);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
 .calculator {
-    color: coral;
-    background-color: beige;
+    align-self: center;
+    background-color: #36454f;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 23rem;
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.6),
+        0 2px 4px rgba(255, 255, 255, 0.05) inset;
+    overflow: hidden;
+}
+
+.calc-display-container {
+    background-color: #f0f8ff;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: end;
+    height: 3rem;
+    font-size: 2rem;
+    box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+    padding: 0 0.5rem;
+}
+
+.calc-display-container::-webkit-scrollbar {
+    height: 0.1rem;
+    background-color: transparent;
+}
+
+.calc-display-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.calc-btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.calc-btns button {
+    font-weight: 600;
+    padding: .5rem;
+    border-radius: 1rem;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.calc-btns button:focus {
+    /* background-color: #56a3c6; */
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.numbers {
+    background-color: #87ceeb;
+}
+
+.numbers:hover,
+.numbers:focus {
+    background-color: #56a3c6;
+}
+
+
+.clear {
+    background-color: tomato;
+}
+
+.clear:hover,
+.clear:focus {
+    background-color: #cc4f39;
+}
+
+.equals {
+    background-color: mediumaquamarine;
+}
+
+.equals:hover,
+.equals:focus {
+    background-color: #4ea78a;
+}
+
+.operands {
+    background-color: darkcyan;
+}
+
+.operands:hover,
+.operands:focus {
+    background-color: #006666;
+}
+
+@media screen and (max-width:380px) {
+    .calculator {
+        width: 20rem;
+    }
 }
