@@ -117,7 +117,7 @@ const Calculator = () => {
             })}
           </div>
         </div>
-        <BackToHome />
+        <BackToHome bgColor="#0A5EB0" />
       </div>
     </>
   );

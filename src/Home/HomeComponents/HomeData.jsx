@@ -10,7 +10,7 @@ import bmi from "../../assets/project-images/bmi.png";
 import ticTacToe from "../../assets/project-images/ticTacToe.png";
 import weather from "../../assets/project-images/weather.png";
 import stopwatch from "../../assets/project-images/stopwatch.png";
-import blog from "../../assets/project-images/blog.png";
+import blog from "../../assets/project-images/blog-website.png";
 import recipe from "../../assets/project-images/recipe.png";
 import eCommerce from "../../assets/project-images/eCommerce.png";
 import expenseTracker from "../../assets/project-images/expense-tracker.png";
