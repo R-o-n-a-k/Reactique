@@ -166,7 +166,7 @@ input[type="checkbox"]:checked::after {
 }
 
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:400px) {
     .to-do-continer {
         width: 20rem;
     }
@@ -191,7 +191,7 @@ input[type="checkbox"]:checked::after {
     }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:350px) {
     .to-do-continer {
         width: 18rem;
     }
