@@ -79,6 +79,7 @@
 
 .clear {
     background-color: tomato;
+    color: var(--pure-white);
 }
 
 .clear:hover,
@@ -87,6 +88,7 @@
 }
 
 .equals {
+    color: var(--pure-white);
     background-color: mediumaquamarine;
 }
 
@@ -96,6 +98,7 @@
 }
 
 .operands {
+    color: var(--pure-white);
     background-color: darkcyan;
 }
 
