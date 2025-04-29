@@ -36,7 +36,7 @@ export const ProjectData = [
     demo: toDo,
     name: "To-Do",
     description:
-      "Responsive React calculator with real-time input handling and basic math operations.",
+      "Manages daily tasks with features to add, edit, delete, and mark tasks as complete for better productivity.",
     link: "to-do",
   },
   {
@@ -45,7 +45,7 @@ export const ProjectData = [
     demo: quote,
     name: "Random Quote Generator",
     description:
-      "Generates and displays a new inspirational or humorous quote on every click. Great for motivational boosts.",
+      "Fetches motivational quotes using a public API on every click with options to like, save to favourites, copy, and share instantly.",
     link: "random-quote",
   },
   {
@@ -90,7 +90,7 @@ export const ProjectData = [
     demo: stopwatch,
     name: "Stopwatch",
     description:
-      "Fetches real-time weather data including temperature, condition, and location info using OpenWeatherMap API.",
+      "A dual-function stopwatch and countdown timer with intuitive controls and accurate time tracking.",
     link: "/coming-soon",
   },
   {
