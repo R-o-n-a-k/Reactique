@@ -79,7 +79,7 @@ const toDo = () => {
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") {
-                  e.preventDefault(); // <-- optional but good to prevent form submitting if inside form
+                  e.preventDefault();
                   addTask();
                 }
               }}
