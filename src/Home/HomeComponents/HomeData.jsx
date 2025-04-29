@@ -46,7 +46,7 @@ export const ProjectData = [
     name: "Random Quote Generator",
     description:
       "Generates and displays a new inspirational or humorous quote on every click. Great for motivational boosts.",
-    link: "/coming-soon",
+    link: "random-quote",
   },
   {
     id: 4,

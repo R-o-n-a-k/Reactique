@@ -109,8 +109,9 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--primary);
+  background-color: var(--secondary);
   border-radius: .3rem;
+  cursor: pointer;
 }
 
 /* ------------------------------- BREAKPOINTS ------------------------------ */
