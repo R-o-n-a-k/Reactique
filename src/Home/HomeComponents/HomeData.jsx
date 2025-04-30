@@ -54,7 +54,7 @@ export const ProjectData = [
     demo: gallery,
     name: "Image Gallery",
     description:
-      "A responsive and clean image gallery with lightbox preview and seamless grid layout for showcasing visuals.",
+      "A responsive and clean image gallery with seamless grid layout, filtering on search, categories and smooth animations for showcasing visuals.",
     link: "/image-gallery",
   },
   {
