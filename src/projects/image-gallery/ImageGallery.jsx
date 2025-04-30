@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./ImageGallery.css";
 import { ImageData, ImageCategoryButtons } from "./ImagePathData";
 import BackToHome from "../../components/BackToHome/BackToHome";
 
 const ImageGallery = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   const [imageCat, setImageCat] = useState(ImageData);
   const [categoryTabBtn, setCategoryTabBtn] = useState("all");
 
