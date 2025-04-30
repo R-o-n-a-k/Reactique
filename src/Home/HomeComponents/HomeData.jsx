@@ -55,7 +55,7 @@ export const ProjectData = [
     name: "Image Gallery",
     description:
       "A responsive and clean image gallery with lightbox preview and seamless grid layout for showcasing visuals.",
-    link: "/coming-soon",
+    link: "/image-gallery",
   },
   {
     id: 5,

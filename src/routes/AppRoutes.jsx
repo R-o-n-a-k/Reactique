@@ -8,6 +8,9 @@ const ToDo = lazy(() => import("../projects/to-do/ToDo"));
 const RandomQuote = lazy(() =>
   import("../projects/random-quote-generator/RandomQuote")
 );
+const ImageGallery = lazy(() =>
+  import("../projects/image-gallery/ImageGallery")
+);
 const ContactForm = lazy(() => import("../projects/contact-form/ContactForm"));
 const NotFound = lazy(() => import("../components/Not-found/NotFound"));
 const ComingSoon = lazy(() => import("../components/Coming-Soon/ComingSoon"));
@@ -22,6 +25,7 @@ const AppRoutes = () => {
           <Route path="/contact-form" element={<ContactForm />} />
           <Route path="/to-do" element={<ToDo />} />
           <Route path="/random-quote" element={<RandomQuote />} />
+          <Route path="/image-gallery" element={<ImageGallery />} />
 
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/*" element={<NotFound />} />
