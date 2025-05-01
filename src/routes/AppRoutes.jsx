@@ -11,6 +11,9 @@ const RandomQuote = lazy(() =>
 const ImageGallery = lazy(() =>
   import("../projects/image-gallery/ImageGallery")
 );
+const BMICalculator = lazy(() =>
+  import("../projects/bmi-calculator/BMICalculator")
+);
 const ContactForm = lazy(() => import("../projects/contact-form/ContactForm"));
 const NotFound = lazy(() => import("../components/Not-found/NotFound"));
 const ComingSoon = lazy(() => import("../components/Coming-Soon/ComingSoon"));
@@ -26,6 +29,7 @@ const AppRoutes = () => {
           <Route path="/to-do" element={<ToDo />} />
           <Route path="/random-quote" element={<RandomQuote />} />
           <Route path="/image-gallery" element={<ImageGallery />} />
+          <Route path="/bmi-calculator" element={<BMICalculator />} />
 
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/*" element={<NotFound />} />
