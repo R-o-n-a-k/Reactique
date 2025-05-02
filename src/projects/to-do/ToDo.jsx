@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./ToDo.css";
 import BackToHome from "../../components/BackToHome/BackToHome";
+import { toast } from "react-toastify";
 
 const toDo = () => {
   const [input, setInput] = useState("");
@@ -19,6 +20,7 @@ const toDo = () => {
         },
       ]);
       setInput("");
+      toast.success("Task added sucessfully");
     }
   };
 
@@ -29,6 +31,7 @@ const toDo = () => {
     );
     if (confirmDelete) {
       setTask(task.filter((index) => index.id !== id));
+      toast.success("Task deleted sucessfully");
     }
   };
 
