@@ -73,7 +73,7 @@ export const ProjectData = [
     name: "Tic Tac Toe",
     description:
       "A fun, interactive 2-player game with win detection, game reset, and a modern UI - built using React hooks.",
-    link: "/coming-soon",
+    link: "/tic-tac-toe",
   },
   {
     id: 7,
