@@ -45,7 +45,7 @@ React-Projects/
 │   ├── /routes  #Adding routes for the new project added
 │   ├── /components  #UI elements and layout
 │   ├── App.jsx
-│   ├──App.css
+│   ├── App.css
 │   └── main.jsx
 │
 ├── .gitignore
@@ -95,9 +95,8 @@ Done! Your project now appears in the UI and can be filtered by category.
 - 🖥️ [Live Demo](https://react-projects-ronak.netlify.app/)
 - 📘 [React Documentation](https://reactjs.org/)
 
-<hr>
 
 ## 📫 Contact
-
-Made with ❤️ by [Ronak Patel](https://ronakjpatel.in/)  
-Feel free to connect, contribute, or fork!
+Want to collabrate and build something great? <p> <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=email&logoColor=white" height="25">
+</a></p> 
+<hr>
