@@ -3,7 +3,7 @@
   A responsive, scalable, and beginner-to-advanced gallery of React.js projects by <strong><a href="https://ronakjpatel.in/">Ronak Patel</a></strong>
 </p>
 <p align="center">
-  <img src="https://github.com/R-o-n-a-k/R-o-n-a-k/blob/a989108d33bbf941043d03b9b663a2ce43a9b4ec/assets/ReactProjectCanvas.gif?raw=true" alt="React Projects Banner" width="100%" />
+  <img src="https://github.com/R-o-n-a-k/assets/blob/40b401458ae867b491ec9390bd8de3d8d5a42389/assets/ReactProjectCanvas.gif?raw=true" alt="React Projects Banner" width="100%" />
 </p>
 
 
@@ -13,7 +13,7 @@ This repository is a **canvas-style showcase** of my React projects ranging from
 
 It’s **fully responsive**, features **tab-based filtering**, and comes with a **plug-and-play structure** so others can add their own projects with minimal effort.
 
-### 🌐 Technologies Used
+### 🛠️ Technologies Used
 
 - **Frontend:** React, JavaScript
 - **Styling:** CSS
