@@ -24,13 +24,13 @@ It’s **fully responsive**, features **tab-based filtering**, and comes with a 
 
 ### ✨ Features
 
-- 🎯 Gallery-style project layout
-- 🧩 Easy integration of new projects
-- 🔍 Filter projects by category using tabs
-- 🧱 Clean and scalable folder structure
-- 📁 Modular project structure
-- 🧭 Dynamic routing
-- 📱 Responsive design
+- Gallery-style project layout
+- Easy integration of new projects
+- Filter projects by category using tabs
+- Clean and scalable folder structure
+- Modular project structure
+- Dynamic routing
+- Responsive design
 
 ### 📂 Folder Structure
 
@@ -92,11 +92,13 @@ Done! Your project now appears in the UI and can be filtered by category.
 
 ### 📎 Useful Links
 
-- 🖥️ [Live Demo](https://react-projects-ronak.netlify.app/)
-- 📘 [React Documentation](https://reactjs.org/)
-
+- [Live Demo](https://react-projects-ronak.netlify.app/)
+- [React Documentation](https://reactjs.org/)
 
 ## 📫 Contact
 Want to collabrate and build something great? <p> <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=email&logoColor=white" height="25">
 </a></p> 
+
 <hr>
+<p align="center">Curated with React, crafted for devs who love to build and scale 🎨</p>
+
