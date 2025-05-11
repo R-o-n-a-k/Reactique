@@ -1,17 +1,10 @@
-import React from "react";
 import "./TicTacToe.css";
 import BackToHome from "../../components/BackToHome/BackToHome";
 import useTicTacToe from "./TicTacToe-Hooks/useTicTacToe";
 
 const TicTacToe = () => {
-  const {
-    square,
-    handlesquareClick,
-    handleRestartGame,
-    turn,
-    getStatusMessage,
-    winner,
-  } = useTicTacToe();
+  const { square, handlesquareClick, handleRestartGame, getStatusMessage } =
+    useTicTacToe();
 
   return (
     <div className="ticTacToe-container">
