@@ -1,4 +1,3 @@
-import React from "react";
 import "./ComingSoon.css";
 import { Link } from "react-router-dom";
 
@@ -11,7 +10,7 @@ const ComingSoon = () => {
       <p className="coming-desc" data-aos="zoom-in">
         Working on this... Till then, check out my other
         <a
-          href="https://ronakjpatel.in"
+          href="https://github.com/R-o-n-a-k"
           target="_blank"
           rel="noopener noreferrer"
           className="website-link"
