@@ -96,7 +96,7 @@ Done! Your project now appears in the UI and can be filtered by category.
 - [React Documentation](https://reactjs.org/)
 
 ## 📫 Contact
-Want to collabrate and build something great? <p> <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=email&logoColor=white" height="25">
+Want to collabrate and build something great? <p> <a href="mailto:ronak.p.1206@gmail.com"><img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=email&logoColor=white" height="25">
 </a></p> 
 
 <hr>
