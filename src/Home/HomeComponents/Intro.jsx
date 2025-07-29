@@ -6,9 +6,9 @@ const Intro = () => {
     <>
       <div className="intro">
         <div className="introduction">
-          <h1 data-aos="zoom-out-down">React Projects</h1>
+          <h1 data-aos="zoom-out-down">REACTIQUE</h1>
           <p data-aos="zoom-out">
-            Some of the things I built to practice & fulfill my childish dream
+            Some of the projects I built to practice & fulfill my childish dream
             of:
           </p>
           <div data-aos="zoom-in">

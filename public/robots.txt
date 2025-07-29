@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://react-projects-ronak.netlify.app/sitemap.xml
+Sitemap: https://reactique.netlify.app/sitemap.xml
