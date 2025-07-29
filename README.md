@@ -1,9 +1,9 @@
-# React Projects Canvas
-<p align="center">
-  A responsive, scalable, and beginner-to-advanced gallery of React.js projects by <strong><a href="https://ronakjpatel.in/">Ronak Patel</a></strong>
-</p>
+# Reactique
 <p align="center">
   <img src="https://github.com/R-o-n-a-k/assets/blob/40b401458ae867b491ec9390bd8de3d8d5a42389/assets/ReactProjectCanvas.gif?raw=true" alt="React Projects Banner" width="100%" />
+</p>
+<p align="center">
+  A responsive, scalable, and beginner-to-advanced gallery of React.js projects by <strong><a href="https://ronakjpatel.in/">Ronak</a></strong>
 </p>
 
 
@@ -35,7 +35,7 @@ It’s **fully responsive**, features **tab-based filtering**, and comes with a 
 ### 📂 Folder Structure
 
 <pre>
-React-Projects/
+Reactique/
 │
 ├── /node_modules
 ├── /src
@@ -64,9 +64,9 @@ To run this project locally:
 
 1. **Clone the repository:**
 ```
-git clone https://github.com/R-o-n-a-k/React-Projects.git
+https://github.com/R-o-n-a-k/Reactique.git
 
-cd React-Projects
+cd Reactique
 ```
 
 2. **Install dependencies:**
@@ -92,7 +92,7 @@ Done! Your project now appears in the UI and can be filtered by category.
 
 ### 📎 Useful Links
 
-- [Live Demo](https://react-projects-ronak.netlify.app/)
+- [Live Demo](https://reactique.netlify.app/)
 - [React Documentation](https://reactjs.org/)
 
 ## 📫 Contact
