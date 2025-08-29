@@ -59,9 +59,15 @@ const WebCreations = () => {
               <div className="project-content">
                 <h4>{item.name}</h4>
                 <p>{item.description}</p>
-                <Link to={`${item.link}`}>
-                  <button>Checkout</button>
-                </Link>
+                {item.href ? (
+                  <a href={item.href} target="_blank" rel="noopener noreferrer">
+                    <button>Checkout</button>
+                  </a>
+                ) : (
+                  <Link to={`${item.link}`}>
+                    <button>Checkout</button>
+                  </Link>
+                )}
               </div>
             </div>
           ))}
