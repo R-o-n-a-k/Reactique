@@ -121,7 +121,7 @@ export const ProjectData = [
     demo: portfolio,
     name: "Portfolio",
     description:
-      "A Portfolio website with ReactJs with clean minimal UI, light-dark mode and smooth animations for better UX experience.",
+      "A Portfolio website made with clean minimal UI, light-dark mode and smooth animations for better UX experience.",
     href: "https://ronakjpatel.in/",
   },
   {
