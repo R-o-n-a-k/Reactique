@@ -20,6 +20,8 @@ import currencyConvertor from "../../assets/project-images/currency-convertor.pn
 import socialMediaDashboard from "../../assets/project-images/social-media.png";
 import recipeRecommendation from "../../assets/project-images/recipe-recommendation.png";
 import task from "../../assets/project-images/task.png";
+import somebodyfixit from "../../assets/project-images/somebodyfixit.png";
+import portfolio from "../../assets/project-images/portfolio.png";
 
 export const ProjectData = [
   {
@@ -114,6 +116,15 @@ export const ProjectData = [
     href: "http://remix-task.netlify.app/",
   },
   {
+    id: 22,
+    type: "medium",
+    demo: portfolio,
+    name: "Portfolio",
+    description:
+      "A Portfolio website with ReactJs with clean minimal UI, light-dark mode and smooth animations for better UX experience.",
+    href: "https://ronakjpatel.in/",
+  },
+  {
     id: 10,
     type: "medium",
     demo: recipe,
@@ -166,6 +177,15 @@ export const ProjectData = [
     description:
       "An interactive quiz app built with React that tests users with multiple-choice questions and provides instant feedback.",
     link: "/coming-soon",
+  },
+  {
+    id: 21,
+    type: "hard",
+    demo: somebodyfixit,
+    name: "SomebodyFixIt",
+    description:
+      "A website where users can post daily problems faced and other users can pick that to solve it powered by Supabase.",
+    href: "https://somebodyfixit.netlify.app/",
   },
   {
     id: 16,
