@@ -19,6 +19,7 @@ import movieApp from "../../assets/project-images/movie-app.png";
 import currencyConvertor from "../../assets/project-images/currency-convertor.png";
 import socialMediaDashboard from "../../assets/project-images/social-media.png";
 import recipeRecommendation from "../../assets/project-images/recipe-recommendation.png";
+import task from "../../assets/project-images/task.png";
 
 export const ProjectData = [
   {
@@ -100,7 +101,17 @@ export const ProjectData = [
     name: "Blog",
     description:
       "A basic blogging interface allowing users to write, view, and read blog posts with a minimal design.",
-    link: "/coming-soon",
+    // link: "/coming-soon",
+    href: "https://taazablog.netlify.app/",
+  },
+  {
+    id: 20,
+    type: "medium",
+    demo: task,
+    name: "Task App",
+    description:
+      "A simple app for adding daily task with all the CRUD operations in react remix {i.e router7} and Google Firebase for storing data.",
+    href: "http://remix-task.netlify.app/",
   },
   {
     id: 10,
